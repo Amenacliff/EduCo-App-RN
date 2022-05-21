@@ -5,7 +5,7 @@ import { StyleSheet } from "react-native";
 const styles =  StyleSheet.create({
     container:{
         flex: 1,
-        paddingTop:50,
+        paddingTop:10,
         alignItems : 'center',
         backgroundColor: 'white'
     },
@@ -13,16 +13,17 @@ const styles =  StyleSheet.create({
         color : '#265AE8',
         fontSize : 18,
         marginLeft : '80%',
-        fontFamily : 'PlusJakartaBold'
+        fontFamily : 'PlusJakartaBold',
+        paddingTop:40
     },
     onboardingImage : {
         display : 'flex',
-        marginTop:80,
+        marginTop:30,
         justifyContent :'center'
     },
     heroText : {
         fontSize : 35,
-        marginTop : 50,
+        marginTop : 10,
         fontFamily : 'PlusJakartaBold',
         textAlign : 'center',
         padding:20,
