@@ -74,6 +74,7 @@ const styles =  StyleSheet.create({
         fontSize : 23,
         fontFamily : 'PlusJakartaBold'
     }
+    
 })
 
 export default styles

@@ -17,7 +17,7 @@ const styles  = StyleSheet.create({
         display : 'flex',
         flexDirection :'row',
         justifyContent : 'space-evenly',
-        width : '80%',
+        width : '90%',
         backgroundColor : "#EDEEF0",
         height : 70,
         alignItems : 'center',
@@ -28,7 +28,35 @@ const styles  = StyleSheet.create({
 
     loginButtonInnerText: {
         fontSize:18
-    }
+    },
+
+    loginActionButtonText : {
+        color : 'white',
+        fontSize : 20,
+        textAlign : 'center'
+    },
+
+    inputField : {
+        width : '90%',
+        padding : 20,
+        fontSize:20,
+        marginTop :10
+    },
+
+    horizontalLine : {
+        borderBottomColor : 'gray',
+        borderBottomWidth : 1,
+        width : '90%',
+        alignSelf : 'center'
+    },
+    loginActionButton : {
+        backgroundColor : '#265AE8',
+        height : 65,
+        marginTop :25,
+        width : 350,
+        padding:18,
+        borderRadius:10
+    },
     
 
 })
