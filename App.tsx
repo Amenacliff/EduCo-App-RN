@@ -5,6 +5,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack'
 import IntroScreen from './screens/OnboardingScreens/introScreen';
 import { useFonts } from 'expo-font';
+import SignUpScreen from './screens/SignUpScreen';
 
 export default function App() {
 
@@ -33,7 +34,12 @@ export default function App() {
         headerShown : false,
         gestureEnabled : true,
         animation:'slide_from_right'
-        }}  component={IntroScreen} />      
+        }}  component={IntroScreen} /> 
+        <Stack.Screen name="signUpScreen" options={{
+        headerShown : false,
+        gestureEnabled : true,
+        animation:'slide_from_right'
+        }}  component={SignUpScreen} />      
       </Stack.Navigator>
     </NavigationContainer>
      : <View></View>

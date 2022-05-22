@@ -56,7 +56,11 @@ const  IntroScreen = () =>{
             
 
             <View >
-                <TouchableOpacity style={styles.registerBtn} >  
+                <TouchableOpacity style={styles.registerBtn} 
+                onPress={()=>{
+                    navigateToNextScreen('signUpScreen')
+                }}
+                >  
                     <Text style={styles.registerText} >Register</Text>
                 </TouchableOpacity>
                 <TouchableOpacity style={styles.loginBtn} >  
